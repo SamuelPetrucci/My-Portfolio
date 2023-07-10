@@ -1,0 +1,21 @@
+.project__experience__containter{
+    display: grid;
+    
+    gap: 1rem;
+    margin-left: 15%;
+    margin-right: 15%;
+    transition: var(--transition);
+}
+
+.project__experience__containter > div {
+    background: var(--color-bg-variant);
+    padding: 2.4rem 5rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+}
+
+.project__experience__containter > div h4{
+    
+    color: var(--color-primary);
+    font-size: large;
+}

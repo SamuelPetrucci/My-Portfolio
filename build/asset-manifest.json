@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.08c32e17.css",
+    "main.js": "/static/js/main.60264a34.js",
+    "static/media/Me.png": "/static/media/Me.d98aa222d3f8f6412d02.png",
+    "static/media/Samuel Petrucci Resume.pdf": "/static/media/Samuel Petrucci Resume.252bae39b6ea1084130f.pdf",
+    "static/media/bacround.jpg": "/static/media/bacround.a139dc99f84aa3b2349b.jpg",
+    "index.html": "/index.html",
+    "main.08c32e17.css.map": "/static/css/main.08c32e17.css.map",
+    "main.60264a34.js.map": "/static/js/main.60264a34.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.08c32e17.css",
+    "static/js/main.60264a34.js"
+  ]
+}

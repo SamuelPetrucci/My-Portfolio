@@ -1,0 +1,112 @@
+.experience__containter{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    padding-bottom: 1rem;
+    margin-left: auto; /* Add this line */
+    margin-right: auto; /* Add this line */
+    max-width: 80%; /* Adjust the max-width as needed */
+    transition: var(--transition);
+}
+
+.Work__experience__containter,
+.class__experience__containter {
+  display: grid;
+  gap: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 90%;
+  transition: var(--transition);
+}
+.exp__header{
+    color: var(--color-primary);
+    padding-bottom: 5%;
+}
+
+.experience__containter > div {
+    background: var(--color-bg-variant);
+    padding: 2.4rem 5rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    margin-bottom: 5%;
+}
+.Work__experience__containter > div {
+    background: var(--color-bg-variant);
+    padding: 2.4rem 5rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+}
+.class__experience__containter > div {
+    background: var(--color-bg-variant);
+    padding: 2.4rem 5rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    margin-bottom: 5%;
+}
+
+.experience__containter > div:hover{
+    background-color: var(--color-primary-variant);
+    border-color: var(--color-primary);
+}
+
+
+.experience__containter > div h3{
+    text-align: center;
+    margin-bottom: 2rem;
+    color: var(--color-primary);
+}
+
+.Work__experience__containter > div h4{
+    
+    color: var(--color-primary);
+}
+
+.experience__details-icon{
+    color: var(--color-primary);
+}
+
+.experience__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 2fr;
+    column-gap: 2rem;
+}
+
+.experience__details{
+    display: flex;
+    gap: 1rem;
+}
+
+
+
+/* ========= Media Queries (Medium Devices) =========== */
+
+@media screen and (max-width: 1024px) {
+    .experience__containter {
+        grid-template-columns: 1fr;
+    }
+    .experience__containter > div{
+        width: 80%;
+        padding: 2rem;
+        margin: 0 auto;
+    }
+    .experience__content{
+        padding: 1rem;
+    }
+  
+}
+
+
+@media screen and (max-width: 600px) {
+    .experience__containter {
+        gap: 1rem;
+    }
+    .experience__containter > div{
+        width: 100%;
+        padding: 2rem 1rem;
+       
+    }
+  
+  
+        
+}
