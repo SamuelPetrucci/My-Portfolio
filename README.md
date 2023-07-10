@@ -2,8 +2,7 @@
 
 I completed this portfolio project using HTML, React, JavaSript, and CSS
 
-<p align="center">
-  <img width="300" src=https://github.com/SamuelPetrucci/WeatherChatBot/blob/main/Weatherbot.gif />
-</p>
+# Sample
 
+To sample the sample my portfolio website go to: https://samuelpetrucci.site/
 
